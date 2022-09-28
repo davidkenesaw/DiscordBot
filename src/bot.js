@@ -5,6 +5,7 @@ require('dotenv').config({
 const { Client, GatewayIntentBits } = require('discord.js');
 const {BanKewWords,SlashCommand} = require('./EventFunctions')
 
+
 // Create a new client instance
 const client = new Client({ 
     intents: [

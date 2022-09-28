@@ -17,8 +17,8 @@ function SlashCommand(message){
         if(array[0] == "~welcome"){
             message.reply("HELLO");
             return;
-        }else if("~roll"){
-            var rolls = "";
+        }else if(array[0] == "~roll"){
+            let rolls = "";
             let total = 0;
             for(let loop = 0; loop < array[1]; loop++){
                 const temp = Math.floor(Math.random() * array[2]) + 1
